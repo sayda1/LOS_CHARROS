@@ -85,8 +85,8 @@ section {
     transition: all 250ms ease-in-out;
     opacity: none; }
   #sobreMi h1 {
-    font-size: 80px;
-    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40px;
+    
     color: #ffffff; }
   #sobreMi p {
     font-size: 20px;
