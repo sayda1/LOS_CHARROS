@@ -1,0 +1,121 @@
+/*---------------------------ESTILOS GENERALES---------------*/
+body {
+  color: transparent; }
+
+section {
+  background: white;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
+  height: 100%; }
+
+.content {
+  background: rgba(204, 204, 204, 0.4);
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  right: 15%;
+  top: 25%;
+  text-align: center !important;
+}
+.content_2{
+  background: rgba(3, 3, 3, 0.49);
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  right: 10%;
+  top: 25%;
+  text-align: center !important;
+}
+
+.visible {
+  display: block; }
+
+/*--------------------------header-----menu-----------------*/
+.navbar {
+  background: #f0ebeb;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  position: fixed;
+  z-index: 99;
+  width: 100%; }
+  .navbar .nav li a {
+    color: #000;
+    font-family: "roboto";
+    font-size: 15px; }
+    .navbar .nav li a:hover, .navbar .nav li a:focus {
+      background: #000; 
+        color: white;
+        }
+  .navbar .navbar-toggle {
+    color: #ffffff;
+    border: 1px solid #ffffff; }
+
+/*-----------------------inicio---foto---------------------*/
+#secInicio {
+  background-image: url(../img/inicio.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: #d5e0e3; }
+  
+  #secInicio h1 {
+    font-size: 50px;
+    font-family: "Ranga", cursive; }
+  #secInicio h2 {
+    font-size: 80px -20px;
+    font-family: "roboto"; }
+
+/*-----------------sobre-----NOSOTROS-------------------------*/
+#sobreMi {
+  color: #fff;
+  background: black;
+  padding: 8% 0%;
+  height: auto
+}
+  #sobreMi .fotos {
+    background-image: url(../img/NOSOTROS.jpeg);
+    background-size: cover;
+    height: 500px;
+      
+    }
+  #sobreMi .imagen:hover {
+    transform: scale(1.2s);
+    transition: all 250ms ease-in-out;
+    opacity: none; }
+  #sobreMi h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff; }
+  #sobreMi p {
+    font-size: 20px;
+    font-family: 'Roboto+Slab'; }
+  #sobreMi span {
+    color: #d65e45; }
+
+/*----------------------contactame-------------------*/
+#secContactame {
+  background: url(../img/contactos.jpg);
+    background-size: cover;
+    background-position: center;
+  padding: 10% 0%;
+  font-family: "roboto"; }
+  #secContactame .row {
+    margin-top: 10%; }
+  #secContactame h1 {
+    font-size: 80px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffff; }
+  #secContactame h3 {
+    color: #ffffff; }
+  #secContactame .fondoContactame {
+    border-radius: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%; }
+    #secContactame .fondoContactame img {
+      max-height: 120px;
+      max-width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
